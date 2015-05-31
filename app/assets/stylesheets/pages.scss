@@ -8,3 +8,32 @@
   width: 200px;
 
 }
+
+.landing {
+  background: image-url("blur.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+}
+
+.landing_title {
+  padding-top: 50vh;
+}
+
+.btn-landing {
+  background: none;
+  border: solid;
+  top: -36px;
+  position: relative;
+  &:hover {
+    border-color: white;
+  }
+}
+
+.navbar {
+  margin-bottom: 0;
+}
