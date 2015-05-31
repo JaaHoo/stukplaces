@@ -11,7 +11,7 @@ class PlacesController < ApplicationController
   # GET /places/1
   # GET /places/1.json
   def show
-    @review = current_user.reviews.new
+    @review = current_user.reviews.new if current_user
     @reviews = @place.reviews
   end
 
